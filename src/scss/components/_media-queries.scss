@@ -1,6 +1,7 @@
 @media (min-width: 548px) {
     .our-works a {
         max-width: 50%;
+        flex-basis: 50%;
     }
 }
 
@@ -15,6 +16,7 @@
 
     .our-works a {
         max-width: 33%;
+        flex-basis: 33%;
     }
     .bordered {
         max-width: 680px;
