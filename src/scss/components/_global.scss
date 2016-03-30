@@ -1,0 +1,35 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 54px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+p.lead {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.text-white {
+    color: white;
+}
