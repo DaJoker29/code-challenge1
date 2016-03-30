@@ -36,3 +36,46 @@ p.lead {
 .text-white {
     color: white;
 }
+
+.bordered {
+    margin: 3em 1em;
+    padding: 1em 2em;
+    position: relative;
+    border: 2px solid black;
+    border-top-width: 0;
+    h3 {
+        position: absolute;
+        top: -.5em;
+        right: 0;
+        left: 0;
+
+    }
+}
+
+.bordered:before,
+.bordered:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 20%;
+    border: 2px solid black;
+    position: absolute;
+    top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+
+.bordered:before {
+    left: 0;
+}
+
+.bordered:after {
+    right: 0;
+}
+
+.text-white .bordered,
+.text-white .bordered:before,
+.text-white .bordered:after, {
+    border-color: white;
+}
