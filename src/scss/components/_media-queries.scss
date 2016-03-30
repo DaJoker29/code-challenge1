@@ -1,4 +1,4 @@
-@media (min-width: 676px) {
+@media (min-width: 767px) {
     .header img:first-child {
         padding-top: 280px;
     }
@@ -8,8 +8,13 @@
     }
 
     .bordered {
-        max-width: 970px;
+        max-width: 680px;
         margin: 140px auto;
         padding: 70px 140px;
+    }
+}
+@media (min-width: 992px) {
+    .bordered {
+        max-width: 970px;
     }
 }
