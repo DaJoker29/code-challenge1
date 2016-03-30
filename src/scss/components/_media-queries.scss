@@ -9,11 +9,15 @@
 
     .bordered {
         max-width: 680px;
-        margin: 140px auto;
+        margin: 140px auto 100px;
         padding: 70px 140px;
     }
     .our-works a {
         max-width: 33%;
+    }
+
+    .btn {
+        padding: 16px 144px;
     }
 }
 @media (min-width: 992px) {
