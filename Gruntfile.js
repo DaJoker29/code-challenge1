@@ -36,7 +36,7 @@ module.exports = function(grunt) {
                 ext: '.min.css',
                 options: {
                     style: 'compressed',
-                    sourcemap: 'none'
+                    sourcemap: 'auto'
                 }
             }
         },
