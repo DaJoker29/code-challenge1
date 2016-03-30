@@ -20,3 +20,26 @@
         padding: 1em;
     }
 }
+
+.our-works {
+    max-width: 1920px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: space-between;
+    a {
+        display: block;
+        flex: 1;
+        position: relative;
+        margin: 4px 0;
+        img {
+            overflow: hidden;
+            height: 100%;
+        }
+        h3 {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+        }
+    }
+}

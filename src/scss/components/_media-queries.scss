@@ -12,9 +12,13 @@
         margin: 140px auto;
         padding: 70px 140px;
     }
+    .our-works a {
+        max-width: 33%;
+    }
 }
 @media (min-width: 992px) {
     .bordered {
         max-width: 970px;
     }
+
 }
