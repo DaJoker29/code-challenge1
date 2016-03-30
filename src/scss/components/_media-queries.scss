@@ -1,3 +1,9 @@
+@media (min-width: 548px) {
+    .our-works a {
+        max-width: 50%;
+    }
+}
+
 @media (min-width: 767px) {
     .header img:first-child {
         padding-top: 280px;
@@ -7,13 +13,13 @@
         padding-top: 210px;
     }
 
+    .our-works a {
+        max-width: 33%;
+    }
     .bordered {
         max-width: 680px;
         margin: 140px auto 100px;
         padding: 70px 140px;
-    }
-    .our-works a {
-        max-width: 33%;
     }
 
     .btn {
